@@ -1,0 +1,15 @@
+.gallery {
+    list-style: none;
+    width: 1440px;
+    height: 696px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    max-width: 1128px;
+    padding: 24px 156px;
+}
+
+.gallery .gallery-image {
+    width: 360px;
+    height: 200px;
+}
